@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <title>Hello React</title>
+ <script src="https://fb.me/react-with-addons-0.14.0.js"></script>
+ <script src="https://fb.me/react-dom-0.14.0.js"></script>
+ <script src="http://fb.me/JSXTransformer-0.13.1.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script type="text/jsx">
+    var TextBox = React.createClass({
+      render: function() {
+        return (
+          <input className='form-control' name={this.props.name} type='text' value={this.props.value} onChange={this.props.onChange}/>
+        );
+      }
+    });
+
+    var ExampleForm = React.createClass({
+      getInitialState: function() {
+        return {form: {firstName: 'Ryan', lastName: 'Vice'}}
+      },
+      onChange: function(event) {
+        this.state.form[event.target.name] = event.target.value;
+        this.setState({form: this.state.form});
+      },
+      onSubmit: function(event) {
+        event.preventDefault();
+        alert('Form submitted. firstName: ' + this.state.form.firstName + ', lastName: ' + this.state.form.lastName);
+      },
+      render: function() {
+        var self = this;
+        return (
+          <form onSubmit={this.onSubmit}>
+            {
+              Object.keys(this.state.form).map(function(key){
+                return (
+                  <TextBox name={key} value={self.state.form[key]} onChange={self.onChange}/>
+                );
+              })
+            }
+            <button className='btn btn-success' type="submit">Submit</button>
+          </form>
+        );
+      }
+    });
+    ReactDOM.render(<ExampleForm/>, document.getElementById('view'));
+</script>
+<div id='view'/>
+</body>
+</html>

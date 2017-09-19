@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <title>Hello React</title>
+ <script src="https://fb.me/react-with-addons-0.14.0.js"></script>
+ <script src="https://fb.me/react-dom-0.14.0.js"></script>
+ <script src="http://fb.me/JSXTransformer-0.13.1.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script type="text/jsx">
+    var UserRow = React.createClass({
+      render: function() {
+        return (
+          <tr>
+            <td>{this.props.user.userName}</td>
+            <td>
+              <a href={'mailto:' + this.props.user.email}>{this.props.user.email}</a>
+            </td>
+          </tr>
+        );
+      }
+    });
+
+    var UserList = React.createClass({
+      getInitialState: function() {
+        return {
+          users: [
+            {
+              id: 1,
+              userName: 'RyanVice',
+              email: 'ryan@vicesoftware.com'
+            },
+            {
+              id: 2,
+              userName: 'AdamHorton',
+              email: 'digitalicarus@gmail.com'
+            }
+          ]
+        };
+      },
+      render: function() {
+        var users = this.state.users.map(function(user) {
+            //key prevents react warining
+            return (<UserRow user={user} key={user.id}/>);
+        });
+        return (
+          <table>
+          <tbody>
+            <tr>
+              <th>User Name</th>
+              <th>Email Address</th>
+            </tr>
+            {users}
+            </tbody>
+          </table>
+        );
+      }
+    });
+    ReactDOM.render(<UserList/>, document.getElementById('view'));
+</script>
+<div id='view'/>
+</body>
+</html>

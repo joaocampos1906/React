@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <title>Hello React</title>
+ <script src="https://fb.me/react-with-addons-0.14.0.js"></script>
+ <script src="https://fb.me/react-dom-0.14.0.js"></script>
+ <script src="http://fb.me/JSXTransformer-0.13.1.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script type="text/jsx">
+    var ReactMixin1 = {
+      log: function(message) {
+        console.log(message);
+      },
+      componentWillMount: function() {
+        this.log('componentWillMount from ReactMixin1');
+      }
+    };
+
+    var ReactMixin2 = {
+      componentWillMount: function() {
+        console.log('componentWillMount from ReactMixin2');
+      }
+    };
+
+    var HelloMessage = React.createClass({
+        mixins: [ReactMixin1, ReactMixin2],
+        componentWillMount: function() {
+          this.log('componentWillMount from HelloMessage');
+        },
+        render: function() {
+          return <h2>{this.props.message}</h2>;
+        }
+      });
+
+      var Button = React.createClass({
+        mixins: [ReactMixin2, ReactMixin1],
+        clicked: function() {
+          this.log(this.props.text + ' clicked');
+        },
+        componentWillMount: function() {
+          this.log('componentWillMount from Button');
+        },
+        render: function() {
+          return <button onClick={this.clicked}>{this.props.text}</button>
+        }
+      });
+
+      var HelloReact = React.createClass({
+        render: function() {
+          return (
+            <div>
+              <HelloMessage message='Hi'/>
+              <Button text='OK'/>
+            </div>
+          )
+        }
+      });
+
+      ReactDOM.render(<HelloReact />, document.getElementById('view'));
+</script>
+<div id='view'/>
+</body>
+</html>
