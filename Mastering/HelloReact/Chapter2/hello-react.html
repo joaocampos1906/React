@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <title>Hello React</title>
+ <script src="https://fb.me/react-with-addons-0.14.0.js"></script>
+ <script src="https://fb.me/react-dom-0.14.0.js"></script>
+ <script src="http://fb.me/JSXTransformer-0.13.1.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script type="text/jsx">
+  var HelloMessage = React.createClass({
+    componentWillMount: function() {
+      console.log('componentWillMount')
+    },
+    componentDidMount: function() {
+      console.log('componentDidMount');
+    },
+    componentWillUnmount: function() {
+      console.log('componentWillUnmount');
+    },
+    render: function() {
+      console.log('render');
+      return <h2>{this.props.message}</h2>;
+    }
+  });
+  var Button = React.createClass({
+    render: function() {
+      return (<button onClick={this.props.onClick}>{this.props.children}</button>)
+    }
+  });
+  var GlyphIcon = React.createClass({
+    render: function() {
+      return (<span className={'glyphicon glyphicon-' + this.props.icon}/>);
+    }
+  })
+  var TextBox = React.createClass({
+    getInitialState: function() {
+      return {isEditing : false }
+    },
+    update: function() {
+      this.props.update(this.refs.messageTextBox.value);
+      this.setState({
+          isEditing:false
+      });
+    },
+    edit: function() {
+      this.setState({isEditing: true});
+    },
+    render: function() {
+      return (
+        <div>{this.props.label}<br/>
+            <input type='text' ref='messageTextBox' disabled={!this.state.isEditing}/>
+            {
+              this.state.isEditing ?
+                <Button onClick={this.update}><GlyphIcon icon='ok'/>Update</Button>
+                :
+                <Button onClick={this.edit}><GlyphIcon icon='pencil'/>Edit</Button>
+            }
+        </div>
+      )
+    }
+  });
+
+  var HelloReact = React.createClass({
+    getInitialState: function() {
+      return {firstName: '', lastName: ''}
+    },
+    update: function (key, value) {
+      var newState = {};
+      newState[key] = value;
+      this.setState(newState);
+    },
+    reload: function() {
+        ReactDOM.unmountComponentAtNode(document.getElementById('view'));
+        ReactDOM.render(<HelloReact />, document.getElementById('view'));
+    },
+    render: function() {
+      return (
+        <div>
+          <HelloMessage message={'Hello ' + this.state.firstName + ' ' + this.state.lastName}/>
+          <TextBox label= 'First Name' update={this.update.bind(null, 'firstName')}/>
+          <TextBox label= 'Last Name' update={this.update.bind(null, 'lastName')}/>
+          <button onClick={this.reload}>Reload</button>
+        </div>
+      );
+    }
+  });
+  ReactDOM.render(<HelloReact/>, document.getElementById('view'));
+</script>
+<div id="view"/>
+</body>
+</html>
