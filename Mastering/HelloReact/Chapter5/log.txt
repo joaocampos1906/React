@@ -1,0 +1,868 @@
+
+> reaction@0.0.0 start D:\React\Mastering\HelloReact\Chapter5
+> webpack-dev-server --progress --color --watch & json-server db/db.json
+
+  0% compile 10% 0/1 build modules 70% 1/1 build modules http://localhost:8080/webpack-dev-server/
+webpack result is served from /
+content is served from D:\React\Mastering\HelloReact\Chapter5
+ 40% 1/2 build modules 30% 1/3 build modules 25% 1/4 build modules 40% 2/4 build modules 54% 3/4 build modules 46% 3/5 build modules 40% 3/6 build modules 50% 4/6 build modules 44% 4/7 build modules 40% 4/8 build modules 36% 4/9 build modules 34% 4/10 build modules 31% 4/11 build modules 30% 4/12 build modules 28% 4/13 build modules 27% 4/14 build modules 26% 4/15 build modules 30% 5/15 build modules 34% 6/15 build modules 32% 6/16 build modules 31% 6/17 build modules 34% 7/17 build modules 33% 7/18 build modules 36% 8/18 build modules 40% 9/18 build modules 43% 10/18 build modules 46% 11/18 build modules 50% 12/18 build modules 53% 13/18 build modules 56% 14/18 build modules 60% 15/18 build modules 63% 16/18 build modules 66% 17/18 build modules 63% 17/19 build modules 61% 17/20 build modules 58% 17/21 build modules 56% 17/22 build modules 54% 17/23 build modules 52% 17/24 build modules 50% 17/25 build modules 49% 17/26 build modules 47% 17/27 build modules 46% 17/28 build modules 45% 17/29 build modules 43% 17/30 build modules 42% 17/31 build modules 41% 17/32 build modules 40% 17/33 build modules 40% 17/34 build modules 39% 17/35 build modules 38% 17/36 build modules 40% 18/36 build modules 39% 18/37 build modules 38% 18/38 build modules 37% 18/39 build modules 37% 18/40 build modules 36% 18/41 build modules 35% 18/42 build modules 35% 18/43 build modules 34% 18/44 build modules 34% 18/45 build modules 33% 18/46 build modules 32% 18/47 build modules 32% 18/48 build modules 32% 18/49 build modules 31% 18/50 build modules 31% 18/51 build modules 30% 18/52 build modules 30% 18/53 build modules 31% 19/53 build modules 32% 20/53 build modules 33% 21/53 build modules 34% 22/53 build modules 36% 23/53 build modules 37% 24/53 build modules 38% 25/53 build modules 39% 26/53 build modules 40% 27/53 build modules 41% 28/53 build modules 42% 29/53 build modules 43% 30/53 build modules 45% 31/53 build modules 46% 32/53 build modules 47% 33/53 build modules 48% 34/53 build modules 49% 35/53 build modules 50% 36/53 build modules 51% 37/53 build modules 51% 37/54 build modules 50% 37/55 build modules 49% 37/56 build modules 48% 37/57 build modules 50% 38/57 build modules 49% 38/58 build modules 48% 38/59 build modules 48% 38/60 build modules 47% 38/61 build modules 46% 38/62 build modules 46% 38/63 build modules 45% 38/64 build modules 45% 38/65 build modules 44% 38/66 build modules 44% 38/67 build modules 43% 38/68 build modules 43% 38/69 build modules 42% 38/70 build modules 42% 38/71 build modules 41% 38/72 build modules 41% 38/73 build modules 40% 38/74 build modules 40% 38/75 build modules 41% 39/75 build modules 42% 40/75 build modules 42% 41/75 build modules 43% 42/75 build modules 44% 43/75 build modules 45% 44/75 build modules 46% 45/75 build modules 46% 46/75 build modules 47% 47/75 build modules 48% 48/75 build modules 49% 49/75 build modules 50% 50/75 build modules 50% 51/75 build modules 51% 52/75 build modules 52% 53/75 build modules 51% 53/76 build modules 51% 53/77 build modules 50% 53/78 build modules 50% 53/79 build modules 49% 53/80 build modules 49% 53/81 build modules 48% 53/82 build modules 48% 53/83 build modules 47% 53/84 build modules 47% 53/85 build modules 46% 53/86 build modules 46% 53/87 build modules 47% 54/87 build modules 47% 55/87 build modules 48% 56/87 build modules 49% 57/87 build modules 50% 58/87 build modules 50% 59/87 build modules 51% 60/87 build modules 52% 61/87 build modules 52% 62/87 build modules 53% 63/87 build modules 54% 64/87 build modules 54% 65/87 build modules 55% 66/87 build modules 56% 67/87 build modules 56% 68/87 build modules 57% 69/87 build modules 58% 70/87 build modules 58% 71/87 build modules 59% 72/87 build modules 60% 73/87 build modules 61% 74/87 build modules 61% 75/87 build modules 61% 75/88 build modules 61% 76/88 build modules 62% 77/88 build modules 63% 78/88 build modules 63% 79/88 build modules 64% 80/88 build modules 63% 80/89 build modules 63% 80/90 build modules 62% 80/91 build modules 62% 80/92 build modules 61% 80/93 build modules 61% 80/94 build modules 60% 80/95 build modules 60% 80/96 build modules 59% 80/97 build modules 60% 81/97 build modules 60% 82/97 build modules 61% 83/97 build modules 61% 84/97 build modules 62% 85/97 build modules 63% 86/97 build modules 63% 87/97 build modules 63% 87/98 build modules 62% 87/99 build modules 62% 87/100 build modules 61% 87/101 build modules 61% 87/102 build modules 60% 87/103 build modules 60% 87/104 build modules 59% 87/105 build modules 59% 87/106 build modules 58% 87/107 build modules 58% 87/108 build modules 57% 87/109 build modules 57% 87/110 build modules 57% 87/111 build modules 56% 87/112 build modules 56% 87/113 build modules 55% 87/114 build modules 55% 87/115 build modules 54% 87/116 build modules 54% 87/117 build modules 54% 87/118 build modules 53% 87/119 build modules 53% 87/120 build modules 53% 87/121 build modules 52% 87/122 build modules 52% 87/123 build modules 52% 87/124 build modules 51% 87/125 build modules 52% 88/125 build modules 52% 89/125 build modules 53% 90/125 build modules 53% 91/125 build modules 54% 92/125 build modules 54% 93/125 build modules 55% 94/125 build modules 55% 95/125 build modules 56% 96/125 build modules 56% 97/125 build modules 56% 97/126 build modules 56% 98/126 build modules 57% 99/126 build modules 57% 100/126 build modules 58% 101/126 build modules 58% 102/126 build modules 59% 103/126 build modules 59% 104/126 build modules 60% 105/126 build modules 60% 106/126 build modules 60% 107/126 build modules 61% 108/126 build modules 61% 109/126 build modules 62% 110/126 build modules 62% 111/126 build modules 63% 112/126 build modules 63% 113/126 build modules 64% 114/126 build modules 64% 115/126 build modules 65% 116/126 build modules 65% 117/126 build modules 66% 118/126 build modules 66% 119/126 build modules 67% 120/126 build modules 67% 121/126 build modules 68% 122/126 build modules 68% 123/126 build modules 69% 124/126 build modules 69% 125/126 build modules 69% 125/127 build modules 68% 125/128 build modules 68% 125/129 build modules 67% 125/130 build modules 67% 125/131 build modules 66% 125/132 build modules 66% 125/133 build modules 65% 125/134 build modules 65% 125/135 build modules 65% 125/136 build modules 64% 125/137 build modules 64% 125/138 build modules 63% 125/139 build modules 63% 125/140 build modules 63% 125/141 build modules 62% 125/142 build modules 62% 125/143 build modules 62% 125/144 build modules 61% 125/145 build modules 61% 125/146 build modules 61% 125/147 build modules 60% 125/148 build modules 60% 125/149 build modules 60% 125/150 build modules 59% 125/151 build modules 59% 125/152 build modules 59% 125/153 build modules 58% 125/154 build modules 58% 125/155 build modules 58% 125/156 build modules 57% 125/157 build modules 57% 125/158 build modules 57% 125/159 build modules 56% 125/160 build modules 56% 125/161 build modules 56% 125/162 build modules 56% 125/163 build modules 55% 125/164 build modules 55% 125/165 build modules 55% 125/166 build modules 54% 125/167 build modules 54% 125/168 build modules 54% 125/169 build modules 54% 125/170 build modules 53% 125/171 build modules 53% 125/172 build modules 53% 126/172 build modules 54% 127/172 build modules 54% 128/172 build modules 54% 129/172 build modules 55% 130/172 build modules 55% 131/172 build modules 56% 132/172 build modules 56% 133/172 build modules 56% 134/172 build modules 57% 135/172 build modules 57% 136/172 build modules 57% 137/172 build modules 58% 138/172 build modules 58% 139/172 build modules 58% 140/172 build modules 59% 141/172 build modules 59% 142/172 build modules 59% 143/172 build modules 60% 144/172 build modules 60% 145/172 build modules 60% 146/172 build modules 61% 147/172 build modules 61% 148/172 build modules 61% 149/172 build modules 62% 150/172 build modules 62% 151/172 build modules 63% 152/172 build modules 63% 153/172 build modules 63% 154/172 build modules 64% 155/172 build modules 64% 156/172 build modules 64% 157/172 build modules 65% 158/172 build modules 65% 159/172 build modules 65% 160/172 build modules 66% 161/172 build modules 66% 162/172 build modules 66% 163/172 build modules 66% 163/173 build modules 66% 164/173 build modules 67% 165/173 build modules 67% 166/173 build modules 67% 167/173 build modules 68% 168/173 build modules 68% 169/173 build modules 68% 170/173 build modules 69% 171/173 build modules 69% 172/173 build modules 69% 172/174 build modules 68% 172/175 build modules 68% 172/176 build modules 68% 172/177 build modules 67% 172/178 build modules 67% 172/179 build modules 67% 172/180 build modules 67% 172/181 build modules 66% 172/182 build modules 66% 172/183 build modules 66% 172/184 build modules 65% 172/185 build modules 65% 172/186 build modules 65% 172/187 build modules 64% 172/188 build modules 64% 172/189 build modules 64% 172/190 build modules 64% 172/191 build modules 63% 172/192 build modules 63% 172/193 build modules 63% 172/194 build modules 63% 173/194 build modules 63% 174/194 build modules 64% 175/194 build modules 64% 176/194 build modules 64% 177/194 build modules 65% 178/194 build modules 65% 179/194 build modules 65% 180/194 build modules 65% 181/194 build modules 66% 182/194 build modules 66% 183/194 build modules 66% 184/194 build modules 67% 185/194 build modules 67% 186/194 build modules 67% 187/194 build modules 68% 188/194 build modules 68% 189/194 build modules 68% 190/194 build modules 69% 191/194 build modules 69% 192/194 build modules 69% 192/195 build modules 69% 193/195 build modules 69% 194/195 build modules 69% 194/196 build modules 69% 194/197 build modules 68% 194/198 build modules 68% 194/199 build modules 68% 194/200 build modules 67% 194/201 build modules 67% 194/202 build modules 67% 195/202 build modules 68% 196/202 build modules 68% 197/202 build modules 68% 198/202 build modules 69% 199/202 build modules 69% 200/202 build modules 69% 201/202 build modules 70% 202/202 build modules 69% 202/203 build modules 69% 202/204 build modules 69% 203/204 build modules 70% 204/204 build modules                  71% seal 73% optimize  75% hashing 76% create chunk assets 78% additional chunk assets   80% optimize chunk assets       90% optimize assets                    Hash: [1m0fc0abf6e3563da5bf22[22m
+Version: webpack [1m1.15.0[22m
+Time: [1m1420[22mms
+chunk    {[1m[33m0[39m[22m} [1m[32mjs/bundle.js[39m[22m (main) 760 kB[1m[32m [rendered][39m[22m
+    [0] [1mmulti main[22m 64 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+    [1] [1m(webpack)-dev-server/client?http://localhost:8080[22m 4.16 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+    [2] [1m./~/strip-ansi/index.js[22m 161 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [3] [1m./~/ansi-regex/index.js[22m 135 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [4] [1m(webpack)-dev-server/client/socket.js[22m 897 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+    [5] [1m(webpack)/hot/only-dev-server.js[22m 2.25 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [6] [1m(webpack)/hot/log-apply-result.js[22m 813 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [7] [1m./js/app.jsx[22m 4.39 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [7 errors][39m[22m
+    [8] [1m./~/react/lib/ReactMount.js[22m 36.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+    [9] [1m./~/react/lib/DOMProperty.js[22m 9.57 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [10] [1m./~/fbjs/lib/invariant.js[22m 1.51 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [11] [1m./~/react/lib/ReactBrowserEventEmitter.js[22m 12.4 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [12] [1m./~/react/lib/EventConstants.js[22m 2.04 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [13] [1m./~/fbjs/lib/keyMirror.js[22m 1.27 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [14] [1m./~/react/lib/EventPluginHub.js[22m 9.22 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [15] [1m./~/react/lib/EventPluginRegistry.js[22m 8.41 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [16] [1m./~/react/lib/EventPluginUtils.js[22m 6.79 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [17] [1m./~/react/lib/ReactErrorUtils.js[22m 2.27 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [18] [1m./~/fbjs/lib/warning.js[22m 1.77 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [19] [1m./~/fbjs/lib/emptyFunction.js[22m 1.09 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [20] [1m./~/react/lib/accumulateInto.js[22m 1.74 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [21] [1m./~/react/lib/forEachAccumulated.js[22m 893 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [22] [1m./~/react/lib/ReactEventEmitterMixin.js[22m 1.3 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [23] [1m./~/react/lib/ReactPerf.js[22m 2.51 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [24] [1m./~/react/lib/ViewportMetrics.js[22m 638 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [25] [1m./~/react/lib/Object.assign.js[22m 1.26 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [26] [1m./~/react/lib/isEventSupported.js[22m 1.97 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [27] [1m./~/fbjs/lib/ExecutionEnvironment.js[22m 1.09 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [28] [1m./~/react/lib/ReactCurrentOwner.js[22m 653 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [29] [1m./~/react/lib/ReactDOMFeatureFlags.js[22m 458 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [30] [1m./~/react/lib/ReactElement.js[22m 8.07 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [31] [1m./~/react/lib/canDefineProperty.js[22m 629 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [32] [1m./~/react/lib/ReactEmptyComponentRegistry.js[22m 1.38 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [33] [1m./~/react/lib/ReactInstanceHandles.js[22m 10.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [34] [1m./~/react/lib/ReactRootIndex.js[22m 723 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [35] [1m./~/react/lib/ReactInstanceMap.js[22m 1.25 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [36] [1m./~/react/lib/ReactMarkupChecksum.js[22m 1.39 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [37] [1m./~/react/lib/adler32.js[22m 1.2 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [38] [1m./~/react/lib/ReactReconciler.js[22m 3.55 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [39] [1m./~/react/lib/ReactRef.js[22m 2.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [40] [1m./~/react/lib/ReactOwner.js[22m 3.45 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [41] [1m./~/react/lib/ReactUpdateQueue.js[22m 10.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [42] [1m./~/react/lib/ReactUpdates.js[22m 8.54 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [43] [1m./~/react/lib/CallbackQueue.js[22m 2.44 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [44] [1m./~/react/lib/PooledClass.js[22m 3.55 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [45] [1m./~/react/lib/Transaction.js[22m 9.55 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [46] [1m./~/fbjs/lib/emptyObject.js[22m 482 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [47] [1m./~/fbjs/lib/containsNode.js[22m 1.43 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [48] [1m./~/fbjs/lib/isTextNode.js[22m 628 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [49] [1m./~/fbjs/lib/isNode.js[22m 712 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [50] [1m./~/react/lib/instantiateReactComponent.js[22m 4.52 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [51] [1m./~/react/lib/ReactCompositeComponent.js[22m 27.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [52] [1m./~/react/lib/ReactComponentEnvironment.js[22m 1.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [53] [1m./~/react/lib/ReactPropTypeLocations.js[22m 549 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [54] [1m./~/react/lib/ReactPropTypeLocationNames.js[22m 611 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [55] [1m./~/react/lib/shouldUpdateReactComponent.js[22m 1.49 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [56] [1m./~/react/lib/ReactEmptyComponent.js[22m 1.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [57] [1m./~/react/lib/ReactNativeComponent.js[22m 3.02 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [58] [1m./~/react/lib/setInnerHTML.js[22m 3.35 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [59] [1m./~/react/lib/validateDOMNesting.js[22m 13.1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [60] [1m./~/react-dom/index.js[22m 63 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [61] [1m./~/react/lib/ReactDOM.js[22m 3.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [62] [1m./~/react/lib/ReactDOMTextComponent.js[22m 4.32 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [63] [1m./~/react/lib/DOMChildrenOperations.js[22m 5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [64] [1m./~/react/lib/Danger.js[22m 6.96 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [65] [1m./~/fbjs/lib/createNodesFromMarkup.js[22m 2.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [66] [1m./~/fbjs/lib/createArrayFromMixed.js[22m 2.36 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [67] [1m./~/fbjs/lib/toArray.js[22m 1.98 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [68] [1m./~/fbjs/lib/getMarkupWrap.js[22m 3.06 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [69] [1m./~/react/lib/ReactMultiChildUpdateTypes.js[22m 861 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [70] [1m./~/react/lib/setTextContent.js[22m 1.2 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [71] [1m./~/react/lib/escapeTextContentForBrowser.js[22m 849 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [72] [1m./~/react/lib/DOMPropertyOperations.js[22m 7.88 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [73] [1m./~/react/lib/quoteAttributeValueForBrowser.js[22m 746 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [74] [1m./~/react/lib/ReactComponentBrowserEnvironment.js[22m 1.26 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [75] [1m./~/react/lib/ReactDOMIDOperations.js[22m 3.29 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [76] [1m./~/react/lib/ReactDefaultInjection.js[22m 3.99 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [77] [1m./~/react/lib/BeforeInputEventPlugin.js[22m 14.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [78] [1m./~/react/lib/EventPropagators.js[22m 5.22 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [79] [1m./~/react/lib/FallbackCompositionState.js[22m 2.49 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [80] [1m./~/react/lib/getTextContentAccessor.js[22m 994 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [81] [1m./~/react/lib/SyntheticCompositionEvent.js[22m 1.16 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [82] [1m./~/react/lib/SyntheticEvent.js[22m 5.79 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [83] [1m./~/react/lib/SyntheticInputEvent.js[22m 1.15 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [84] [1m./~/fbjs/lib/keyOf.js[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [85] [1m./~/react/lib/ChangeEventPlugin.js[22m 11.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [86] [1m./~/react/lib/getEventTarget.js[22m 930 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [87] [1m./~/react/lib/isTextInputElement.js[22m 1.03 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [88] [1m./~/react/lib/ClientReactRootIndex.js[22m 551 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [89] [1m./~/react/lib/DefaultEventPluginOrder.js[22m 1.26 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [90] [1m./~/react/lib/EnterLeaveEventPlugin.js[22m 3.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [91] [1m./~/react/lib/SyntheticMouseEvent.js[22m 2.2 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [92] [1m./~/react/lib/SyntheticUIEvent.js[22m 1.64 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [93] [1m./~/react/lib/getEventModifierState.js[22m 1.3 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [94] [1m./~/react/lib/HTMLDOMPropertyConfig.js[22m 7.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [95] [1m./~/react/lib/ReactBrowserComponentMixin.js[22m 1.15 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [96] [1m./~/react/lib/findDOMNode.js[22m 2.17 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [97] [1m./~/react/lib/ReactDefaultBatchingStrategy.js[22m 1.92 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+   [98] [1m./~/react/lib/ReactDOMComponent.js[22m 36.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+   [99] [1m./~/react/lib/AutoFocusUtils.js[22m 816 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [100] [1m./~/fbjs/lib/focusNode.js[22m 725 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [101] [1m./~/react/lib/CSSPropertyOperations.js[22m 5.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [102] [1m./~/react/lib/CSSProperty.js[22m 3.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [103] [1m./~/fbjs/lib/camelizeStyleName.js[22m 1.03 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [104] [1m./~/fbjs/lib/camelize.js[22m 729 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [105] [1m./~/react/lib/dangerousStyleValue.js[22m 1.93 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [106] [1m./~/fbjs/lib/hyphenateStyleName.js[22m 1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [107] [1m./~/fbjs/lib/hyphenate.js[22m 822 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [108] [1m./~/fbjs/lib/memoizeStringOnly.js[22m 778 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [109] [1m./~/react/lib/ReactDOMButton.js[22m 1.15 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [110] [1m./~/react/lib/ReactDOMInput.js[22m 5.74 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [111] [1m./~/react/lib/LinkedValueUtils.js[22m 5.23 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [112] [1m./~/react/lib/ReactPropTypes.js[22m 12.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [113] [1m./~/react/lib/getIteratorFn.js[22m 1.17 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [114] [1m./~/react/lib/ReactDOMOption.js[22m 2.82 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [115] [1m./~/react/lib/ReactChildren.js[22m 5.83 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [116] [1m./~/react/lib/traverseAllChildren.js[22m 6.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [117] [1m./~/react/lib/ReactDOMSelect.js[22m 6.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [118] [1m./~/react/lib/ReactDOMTextarea.js[22m 4.35 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [119] [1m./~/react/lib/ReactMultiChild.js[22m 14.7 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [120] [1m./~/react/lib/ReactChildReconciler.js[22m 4.52 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [121] [1m./~/react/lib/flattenChildren.js[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [122] [1m./~/fbjs/lib/shallowEqual.js[22m 1.28 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [123] [1m./~/react/lib/ReactEventListener.js[22m 7.51 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [124] [1m./~/fbjs/lib/EventListener.js[22m 2.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [125] [1m./~/fbjs/lib/getUnboundedScrollPosition.js[22m 1.09 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [126] [1m./~/react/lib/ReactInjection.js[22m 1.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [127] [1m./~/react/lib/ReactClass.js[22m 27.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [128] [1m./~/react/lib/ReactComponent.js[22m 5.04 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [129] [1m./~/react/lib/ReactNoopUpdateQueue.js[22m 3.94 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [130] [1m./~/react/lib/ReactReconcileTransaction.js[22m 4.58 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [131] [1m./~/react/lib/ReactInputSelection.js[22m 4.32 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [132] [1m./~/react/lib/ReactDOMSelection.js[22m 6.83 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [133] [1m./~/react/lib/getNodeForCharacterOffset.js[22m 1.66 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [134] [1m./~/fbjs/lib/getActiveElement.js[22m 924 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [135] [1m./~/react/lib/SelectEventPlugin.js[22m 6.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [136] [1m./~/react/lib/ServerReactRootIndex.js[22m 868 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [137] [1m./~/react/lib/SimpleEventPlugin.js[22m 17.4 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [138] [1m./~/react/lib/SyntheticClipboardEvent.js[22m 1.23 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [139] [1m./~/react/lib/SyntheticFocusEvent.js[22m 1.12 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [140] [1m./~/react/lib/SyntheticKeyboardEvent.js[22m 2.76 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [141] [1m./~/react/lib/getEventCharCode.js[22m 1.56 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [142] [1m./~/react/lib/getEventKey.js[22m 2.93 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [143] [1m./~/react/lib/SyntheticDragEvent.js[22m 1.13 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [144] [1m./~/react/lib/SyntheticTouchEvent.js[22m 1.33 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [145] [1m./~/react/lib/SyntheticWheelEvent.js[22m 1.99 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [146] [1m./~/react/lib/SVGDOMPropertyConfig.js[22m 3.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [147] [1m./~/react/lib/ReactDefaultPerf.js[22m 8.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [148] [1m./~/react/lib/ReactDefaultPerfAnalysis.js[22m 5.79 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [149] [1m./~/fbjs/lib/performanceNow.js[22m 844 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [150] [1m./~/fbjs/lib/performance.js[22m 612 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [151] [1m./~/react/lib/ReactVersion.js[22m 379 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [152] [1m./~/react/lib/renderSubtreeIntoContainer.js[22m 463 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [153] [1m./~/react-router/lib/index.js[22m 2.38 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [154] [1m./~/react-router/lib/Router.js[22m 5.82 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [155] [1m./~/history/lib/createHashHistory.js[22m 7.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [156] [1m./~/history/lib/Actions.js[22m 720 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [157] [1m./~/history/lib/ExecutionEnvironment.js[22m 175 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [158] [1m./~/history/lib/DOMUtils.js[22m 2.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [159] [1m./~/history/lib/DOMStateStorage.js[22m 2.01 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [160] [1m./~/history/lib/createDOMHistory.js[22m 1.29 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [161] [1m./~/history/lib/createHistory.js[22m 8.35 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [162] [1m./~/deep-equal/index.js[22m 3.05 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [163] [1m./~/history/lib/AsyncUtils.js[22m 441 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [164] [1m./~/history/lib/createLocation.js[22m 1.72 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [165] [1m./~/history/lib/parsePath.js[22m 1.16 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [166] [1m./~/history/lib/extractPath.js[22m 278 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [167] [1m./~/history/lib/runTransitionHook.js[22m 775 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [168] [1m./~/history/lib/deprecate.js[22m 299 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [169] [1m./~/react-router/lib/RouteUtils.js[22m 3.49 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [170] [1m./~/react-router/lib/RoutingContext.js[22m 4.85 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [171] [1m./~/react-router/lib/getRouteParams.js[22m 578 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [172] [1m./~/react-router/lib/PatternUtils.js[22m 6.79 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [173] [1m./~/react-router/lib/useRoutes.js[22m 10 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [174] [1m./~/history/lib/useQueries.js[22m 5.91 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [175] [1m./~/history/~/query-string/index.js[22m 1.48 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [176] [1m./~/strict-uri-encode/index.js[22m 182 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [177] [1m./~/react-router/lib/computeChangedRoutes.js[22m 1.69 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [178] [1m./~/react-router/lib/TransitionUtils.js[22m 1.89 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [179] [1m./~/react-router/lib/AsyncUtils.js[22m 1.06 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [180] [1m./~/react-router/lib/isActive.js[22m 3.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [181] [1m./~/react-router/lib/getComponents.js[22m 971 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [182] [1m./~/react-router/lib/matchRoutes.js[22m 6.1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [183] [1m./~/react-router/lib/PropTypes.js[22m 1.32 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [184] [1m./~/react-router/lib/Link.js[22m 5.13 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [185] [1m./~/react-router/lib/IndexLink.js[22m 1.74 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [186] [1m./~/react-router/lib/IndexRedirect.js[22m 2.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [4 errors][39m[22m
+  [187] [1m./~/react-router/lib/Redirect.js[22m 3.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [188] [1m./~/react-router/lib/IndexRoute.js[22m 2.48 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [4 errors][39m[22m
+  [189] [1m./~/react-router/lib/Route.js[22m 2.46 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [190] [1m./~/react-router/lib/History.js[22m 404 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [191] [1m./~/react-router/lib/Lifecycle.js[22m 2.4 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [192] [1m./~/react-router/lib/RouteContext.js[22m 807 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+  [193] [1m./~/react-router/lib/match.js[22m 2.32 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
+  [194] [1m./~/history/lib/createMemoryHistory.js[22m 4.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [3 errors][39m[22m
+  [195] [1m./~/history/lib/useBasename.js[22m 4.54 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [196] [1m./js/views/appHeader.jsx[22m 1.82 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [197] [1m./js/views/login.jsx[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [198] [1m./js/views/posts/list.jsx[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [199] [1m./js/views/posts/view.jsx[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [200] [1m./js/views/posts/edit.jsx[22m 1.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [201] [1m./js/views/users/list.jsx[22m 1.88 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [202] [1m./js/views/users/view.jsx[22m 1.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+  [203] [1m./js/views/users/edit.jsx[22m 1.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [5 errors][39m[22m
+
+[1m[31mERROR in multi main
+Module not found: Error: Cannot resolve module 'babel-polyfill' in D:\React\Mastering\HelloReact\Chapter5
+ @ multi main[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve module 'reac' in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 5:12-27[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ../css/app.less in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 15:11-37[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 93:231-335[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 1:0-54[39m[22m
+
+[1m[31mERROR in (webpack)-dev-server/client?http://localhost:8080
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\url\url.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\webpack-dev-server\client
+ @ (webpack)-dev-server/client?http://localhost:8080 1:10-24[39m[22m
+
+[1m[31mERROR in ./js/app.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js
+ @ ./js/app.jsx 1:366-382 93:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/login.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/login.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/login.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/login.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/login.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/login.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/login.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/login.jsx 1:0-57[39m[22m
+
+[1m[31mERROR in ./js/views/appHeader.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/appHeader.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/appHeader.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/appHeader.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/appHeader.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/appHeader.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/appHeader.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/appHeader.jsx 1:0-57[39m[22m
+
+[1m[31mERROR in ./js/views/posts/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/list.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/posts/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/list.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/posts/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/list.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/posts/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/list.jsx 1:0-60[39m[22m
+
+[1m[31mERROR in ./js/views/posts/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/edit.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/posts/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/edit.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/posts/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/edit.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/posts/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/edit.jsx 1:0-60[39m[22m
+
+[1m[31mERROR in ./js/views/posts/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/view.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/posts/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/view.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/posts/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/view.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/posts/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/view.jsx 1:0-60[39m[22m
+
+[1m[31mERROR in ./js/views/users/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/list.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/users/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/list.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/users/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/list.jsx 31:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/users/list.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/list.jsx 1:0-60[39m[22m
+
+[1m[31mERROR in ./js/views/users/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/view.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/users/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/view.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/users/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/view.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/users/view.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/view.jsx 1:0-60[39m[22m
+
+[1m[31mERROR in ./js/views/users/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-api\modules\index.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/edit.jsx 1:74-175[39m[22m
+
+[1m[31mERROR in ./js/views/users/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\RootInstanceProvider.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/edit.jsx 1:200-310[39m[22m
+
+[1m[31mERROR in ./js/views/users/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' D:\React\Mastering\HelloReact\Chapter5\node_modules\react-hot-loader\makeExportsHot.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/edit.jsx 27:231-335[39m[22m
+
+[1m[31mERROR in ./js/views/users/edit.jsx
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../../node_modules/webpack/buildin/module.js in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/edit.jsx 1:0-60[39m[22m
+
+[1m[31mERROR in ./js/views/login.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/login.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/appHeader.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views
+ @ ./js/views/appHeader.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/posts/list.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/list.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/posts/edit.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/edit.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/posts/view.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views\posts
+ @ ./js/views/posts/view.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/users/list.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/list.jsx 1:366-382 9:13-29 31:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/users/view.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/view.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in ./js/views/users/edit.jsx
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\js\views\users
+ @ ./js/views/users/edit.jsx 1:366-382 9:13-29 27:364-380[39m[22m
+
+[1m[31mERROR in (webpack)-dev-server/client/socket.js
+Module not found: Error: Cannot resolve module 'sockjs-client' in D:\React\Mastering\HelloReact\Chapter5\node_modules\webpack-dev-server\client
+ @ (webpack)-dev-server/client/socket.js 1:13-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactMount.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactMount.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/DOMProperty.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/DOMProperty.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactElement.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactElement.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactInstanceHandles.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactInstanceHandles.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactPerf.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactPerf.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactUpdateQueue.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactUpdateQueue.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactUpdates.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactUpdates.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/instantiateReactComponent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/instantiateReactComponent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/validateDOMNesting.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/validateDOMNesting.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOM.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOM.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Router.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Router.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRedirect.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRedirect.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRoute.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRoute.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Redirect.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Redirect.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Route.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Route.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Lifecycle.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Lifecycle.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/useRoutes.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/useRoutes.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RouteUtils.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RouteUtils.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RoutingContext.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RoutingContext.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/match.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/match.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Router.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Router.js 19:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexLink.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexLink.js 13:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Link.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Link.js 15:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRedirect.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRedirect.js 19:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRoute.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRoute.js 19:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Redirect.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Redirect.js 15:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Route.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Route.js 15:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Lifecycle.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Lifecycle.js 7:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RouteContext.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RouteContext.js 7:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RouteUtils.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RouteUtils.js 14:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RoutingContext.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RoutingContext.js 17:13-29[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/PropTypes.js
+Module not found: Error: Cannot resolve module 'react' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/PropTypes.js 6:13-29[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/emptyObject.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/emptyObject.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/warning.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/warning.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/invariant.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/invariant.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/EventPluginRegistry.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/EventPluginRegistry.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/EventPluginHub.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/EventPluginHub.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/canDefineProperty.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/canDefineProperty.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/CallbackQueue.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/CallbackQueue.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/PooledClass.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/PooledClass.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/Transaction.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/Transaction.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactCompositeComponent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactCompositeComponent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactNativeComponent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactNativeComponent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDefaultInjection.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDefaultInjection.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMTextComponent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMTextComponent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/findDOMNode.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/findDOMNode.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/PatternUtils.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/PatternUtils.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/matchRoutes.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/matchRoutes.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Router.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Router.js 15:15-33[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRedirect.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRedirect.js 11:15-33[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRoute.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRoute.js 11:15-33[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/useRoutes.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/useRoutes.js 11:15-33[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RouteUtils.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RouteUtils.js 18:15-33[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/matchRoutes.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/matchRoutes.js 7:15-33[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRedirect.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRedirect.js 15:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/IndexRoute.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/IndexRoute.js 15:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Redirect.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Redirect.js 11:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Route.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Route.js 11:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/Lifecycle.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/Lifecycle.js 11:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/RoutingContext.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/RoutingContext.js 13:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/match.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/match.js 9:17-37[39m[22m
+
+[1m[31mERROR in ./~/react-router/lib/PatternUtils.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\react-router\lib
+ @ ./~/react-router/lib/PatternUtils.js 12:17-37[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/keyMirror.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/keyMirror.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/EventPluginUtils.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/EventPluginUtils.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/accumulateInto.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/accumulateInto.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactErrorUtils.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactErrorUtils.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactComponentEnvironment.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactComponentEnvironment.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactOwner.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactOwner.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactPropTypeLocationNames.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactPropTypeLocationNames.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactBrowserComponentMixin.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactBrowserComponentMixin.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMComponent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMComponent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/SimpleEventPlugin.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/SimpleEventPlugin.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/DOMChildrenOperations.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/DOMChildrenOperations.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/DOMPropertyOperations.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/DOMPropertyOperations.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createHashHistory.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createHashHistory.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/useQueries.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/useQueries.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createMemoryHistory.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createMemoryHistory.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createHashHistory.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createHashHistory.js 9:15-33[39m[22m
+
+[1m[31mERROR in ./~/history/lib/useQueries.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/useQueries.js 11:15-33[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createMemoryHistory.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createMemoryHistory.js 9:15-33[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createHashHistory.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createHashHistory.js 13:17-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createMemoryHistory.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createMemoryHistory.js 13:17-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/EventPropagators.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/EventPropagators.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/SyntheticEvent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/SyntheticEvent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMIDOperations.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMIDOperations.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/CSSPropertyOperations.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/CSSPropertyOperations.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMInput.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMInput.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMSelect.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMSelect.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMOption.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMOption.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactDOMTextarea.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactDOMTextarea.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactMultiChild.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactMultiChild.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/EventListener.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/EventListener.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactClass.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactClass.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/Danger.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/Danger.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/DOMStateStorage.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/DOMStateStorage.js 10:15-33[39m[22m
+
+[1m[31mERROR in ./~/history/lib/DOMStateStorage.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/DOMStateStorage.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createDOMHistory.js
+Module not found: Error: Cannot resolve module 'invariant' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createDOMHistory.js 9:17-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/createDOMHistory.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/createDOMHistory.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/parsePath.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/parsePath.js 7:15-33[39m[22m
+
+[1m[31mERROR in ./~/history/lib/parsePath.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/parsePath.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/history/lib/runTransitionHook.js
+Module not found: Error: Cannot resolve module 'warning' in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/runTransitionHook.js 7:15-33[39m[22m
+
+[1m[31mERROR in ./~/history/lib/runTransitionHook.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\history\lib
+ @ ./~/history/lib/runTransitionHook.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/LinkedValueUtils.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/LinkedValueUtils.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactChildReconciler.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactChildReconciler.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/flattenChildren.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/flattenChildren.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactComponent.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactComponent.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/react/lib/ReactNoopUpdateQueue.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/ReactNoopUpdateQueue.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/createNodesFromMarkup.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/createNodesFromMarkup.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/getMarkupWrap.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/getMarkupWrap.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/deep-equal/index.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./lib/keys.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\deep-equal
+ @ ./~/deep-equal/index.js 2:17-41[39m[22m
+
+[1m[31mERROR in ./~/react/lib/traverseAllChildren.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\react\lib
+ @ ./~/react/lib/traverseAllChildren.js 1:0-37[39m[22m
+
+[1m[31mERROR in ./~/deep-equal/index.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./lib/is_arguments.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\deep-equal
+ @ ./~/deep-equal/index.js 3:18-50[39m[22m
+
+[1m[31mERROR in ./~/fbjs/lib/toArray.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./../../process/browser.js in D:\React\Mastering\HelloReact\Chapter5\node_modules\fbjs\lib
+ @ ./~/fbjs/lib/toArray.js 1:0-37[39m[22m
+webpack: Failed to compile.
